@@ -1,56 +1,106 @@
-* {
-  box-sizing: border-box;
+*
+{
+    box-sizing: border-box;
 }
-html {
-  overflow-y: scroll;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #637588;
-  letter-spacing: 0.15em;
+html
+{
+    font-family: $font-main;
+    font-size: $font-size;
+
+    overflow-y: scroll;
+
+    letter-spacing: .15em;
+
+    color: $color-gray;
 }
-h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 3.75rem;
-  font-weight: 300;
-  letter-spacing: 0.08em;
-  line-height: 1.2;
-  @media (max-width: 992px) {
-    font-size: 40px;
-  }
-  @media (max-width: 768px) {
-    font-size: 30px;
-  }
+
+h1
+{
+    font-family: $font-header;
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+    letter-spacing: .08em;
+
+    @include lg-min
+    {
+        font-size: 3.75rem;
+    }
+    @include lg-md
+    {
+        font-size: 2.5rem;
+    }
+    @include md
+    {
+        font-size: 1.875rem;
+    }
 }
-a {
-  text-decoration: none;
-  color: #fff;
+a
+{
+    text-decoration: none;
+
+    color: #fff;
 }
 .btn,
-.btn-accent {
-  display: block;
-  padding: 18px 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  font-size: 1.125rem;
-  height: 60px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  transition: background-color 0.5s;
-  &:hover,
-  &:focus {
-    background-color: #d66926;
-  }
+.btn-accent
+{
+    display: block;
+
+    transition: background-color .5s;
+    text-align: center;
+    letter-spacing: .1em;
+
+    background-color: rgba(255, 255, 255, .1);
+
+    &:hover,
+    &:focus
+    {
+        background-color: $color-accent;
+    }
 }
-.btn {
-  min-width: 250px;
-  border: 2px solid #ffffff;
-  background-color: rgba(#ffffff, 0.1);
+.btn
+{
+    border: 2px solid $color-light;
+    background-color: rgba($color-light, .1);
+
+    @include lg-min
+    {
+        font-size: 1.125rem;
+
+        min-width: 250px;
+        height: 60px;
+        padding: 18px $gap;
+    }
+    @include lg-md
+    {
+        font-size: 1rem;
+
+        min-width: 200px;
+        height: 50px;
+        padding: 14px $gap;
+    }
+    @include md
+    {
+        font-size: 1rem;
+
+        min-width: 170px;
+        height: 40px;
+        padding: 9px $gap;
+    }
 }
-.btn-accent {
-  min-width: 350px;
-  border: 2px solid #2d3651;
-  background-color: rgba($color: #2d3651, $alpha: 0.8);
-  @media (max-width: 576px) {
-    min-width: auto;
-    width: 100%;
-  }
+.btn-accent
+{
+    min-width: 350px;
+    height: 60px;
+    padding: 18px $gap;
+
+    border: 2px solid $color-primary;
+    background-color: rgba($color-primary, .8);
+
+    @include sm
+    {
+        width: 100%;
+        min-width: auto;
+    }
 }

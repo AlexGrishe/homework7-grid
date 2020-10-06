@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="467792ee-ce09-4e25-9486-4c886172ee29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_extends.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_extends.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +38,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scss/header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -72,11 +88,60 @@
       <workItem from="1601754139381" duration="241000" />
       <workItem from="1601754518559" duration="46000" />
       <workItem from="1601754572234" duration="87000" />
-      <workItem from="1601761473907" duration="348000" />
+      <workItem from="1601761473907" duration="719000" />
+      <workItem from="1601762243234" duration="95000" />
+      <workItem from="1601818449819" duration="683000" />
+      <workItem from="1601837356292" duration="29573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601818711351">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1601818711351" />
+    <state x="237" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1601839283402">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="237" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1601839283402" />
+    <state x="679" y="247" key="FileChooserDialogImpl" timestamp="1601983139492">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="679" y="247" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1601983139492" />
+    <state width="1259" height="205" key="GridCell.Tab.0.bottom" timestamp="1601762357381">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601762357381" />
+    <state width="1259" height="205" key="GridCell.Tab.0.center" timestamp="1601762357379">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601762357379" />
+    <state width="1259" height="205" key="GridCell.Tab.0.left" timestamp="1601762357379">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601762357379" />
+    <state width="1259" height="205" key="GridCell.Tab.0.right" timestamp="1601762357380">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601762357380" />
+    <state x="13" y="78" width="900" height="722" key="SettingsEditor" timestamp="1601982880685">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="13" y="78" width="900" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601982880685" />
+    <state x="607" y="183" width="568" height="604" key="find.popup" timestamp="1601983269334">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="607" y="183" width="568" height="604" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1601983269334" />
+    <state x="440" y="46" key="scopes" timestamp="1601982264197">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="440" y="46" key="scopes/0.0.1280.800@0.0.1280.800" timestamp="1601982264197" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601983220664">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1601983220664" />
   </component>
 </project>
