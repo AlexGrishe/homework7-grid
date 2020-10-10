@@ -1,9 +1,9 @@
 @import '../../libs/normalize-scss/sass/normalize/import-now';
-@import 'skin';
-@import 'variables';
-@import 'mixins';
-@import 'mixins-media';
-@import 'extends';
+@import '_skin';
+@import '_variables';
+@import '_mixins';
+@import '_mixins-media';
+@import '_extends';
 
 @import 'common';
 @import 'header/header';

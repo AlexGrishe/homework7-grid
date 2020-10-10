@@ -1,0 +1,40 @@
+.form {
+  background-color: $color-primary;
+  height: 120px;
+  margin: auto;
+  padding-right: $gap;
+  padding-left: $gap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-main;
+
+  &-container {
+
+    &__input {
+      height: 60px;
+      width: 420px;
+      margin-right: $gap / 2;
+      background: $color-primary-light;
+      border: none;
+      color: $color-light;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      font-size: 1.125rem;
+      padding: $gap;
+      letter-spacing: 0.21rem;
+      opacity: 0.8;
+    }
+    &__input::placeholder {
+      opacity: 0.2;
+    }
+    &__btn {
+      height: 60px;
+      width: 420px;
+      border: none;
+      background: $color-primary-dark;
+      color: $color-light;
+      font-size: 1.125rem;
+      letter-spacing: 0.11rem;
+    }
+  }
+}

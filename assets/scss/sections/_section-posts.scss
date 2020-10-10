@@ -1,0 +1,28 @@
+.posts {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &__container {
+    @extend %container;
+
+    &__title {
+      margin-top: 0;
+    }
+
+    &__button {
+      display: flex;
+      padding-top: $gap;
+      justify-content: center;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "a1 a1 a2 a3" "a4 a5 a6 a6";
+      grid-gap: $gap;
+    }
+
+    &__item {
+
+    }
+  }
+}
