@@ -7,14 +7,13 @@
     <list default="true" id="467792ee-ce09-4e25-9486-4c886172ee29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_skin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_skin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,10 @@
       <workItem from="1601761473907" duration="719000" />
       <workItem from="1601762243234" duration="95000" />
       <workItem from="1601818449819" duration="683000" />
-      <workItem from="1601837356292" duration="73218000" />
+      <workItem from="1601837356292" duration="73535000" />
+      <workItem from="1602320840865" duration="140000" />
+      <workItem from="1602330613497" duration="47000" />
+      <workItem from="1602347115174" duration="41600000" />
     </task>
     <task id="LOCAL-00001" summary="homework10">
       <created>1601998760997</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601998841813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="last commit">
+      <created>1602320198419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602320198420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework10" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework10" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601818711351">
@@ -123,30 +133,30 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="237" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1601839283402" />
-    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1601998841506">
+    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1602320197737">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1601998841506" />
+    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602320197737" />
     <state x="679" y="247" key="FileChooserDialogImpl" timestamp="1601983139492">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="679" y="247" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1601983139492" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1602165557033">
+    <state width="1259" height="211" key="GridCell.Tab.0.bottom" timestamp="1602591099942">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602165557033" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1602165557032">
+    <state width="1259" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602591099942" />
+    <state width="1259" height="211" key="GridCell.Tab.0.center" timestamp="1602591099940">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602165557032" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1602165557032">
+    <state width="1259" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602591099940" />
+    <state width="1259" height="211" key="GridCell.Tab.0.left" timestamp="1602591099939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602165557032" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1602165557033">
+    <state width="1259" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602591099939" />
+    <state width="1259" height="211" key="GridCell.Tab.0.right" timestamp="1602591099941">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602165557033" />
+    <state width="1259" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602591099941" />
     <state x="13" y="78" width="900" height="722" key="SettingsEditor" timestamp="1601982880685">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -159,10 +169,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="442" y="81" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1601998727698" />
-    <state x="607" y="183" width="568" height="604" key="find.popup" timestamp="1601999007733">
+    <state x="607" y="183" width="568" height="604" key="find.popup" timestamp="1602537227812">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="607" y="183" width="568" height="604" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1601999007733" />
+    <state x="607" y="183" width="568" height="604" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602537227812" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1602112004089">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -171,9 +181,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="440" y="46" key="scopes/0.0.1280.800@0.0.1280.800" timestamp="1601982264197" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601983220664">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1602514270734">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1601983220664" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602514270734" />
   </component>
 </project>

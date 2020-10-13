@@ -1,28 +1,212 @@
-.posts {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  &__container {
-    @extend %container;
+.posts
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
 
-    &__title {
-      margin-top: 0;
+    @include md
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-    &__button {
-      display: flex;
-      padding-top: $gap;
-      justify-content: center;
+    &__container
+    {
+        @extend %container;
     }
 
-    &__content {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "a1 a1 a2 a3" "a4 a5 a6 a6";
-      grid-gap: $gap;
+    &-button
+    {
+        display: flex;
+
+        padding-top: $gap;
+        padding-top: 0;
+
+        justify-content: center;
     }
 
-    &__item {
 
+    &__title
+    {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2.5rem;
+        line-height: 1.2em;
+
+        margin-top: 0;
+        margin-bottom: 56px;
+
+        letter-spacing: .1em;
+
+        color: #2d3651;
+
+        @include lg-md
+        {
+            font-size: 2rem;
+        }
+        @include md
+        {
+            font-size: 1.5rem;
+
+            margin-bottom: 36px;
+        }
     }
-  }
 }
+.posts
+{
+    &-content
+    {
+        display: grid;
+
+        padding-bottom: $gap;
+
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'p1 p1 p2 p3' 'p4 p5 p6 p6';
+        grid-gap: $gap;
+        @include lg-sm
+        {
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 'p1 p1 p2' 'p3 p4 p4' 'p5 p5 p6';
+        }
+        @include md
+        {
+            display: grid;
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 'p1 p2' 'p3 p4' 'p5 p6';
+        }
+        @include sm
+        {
+            display: grid;
+
+            grid-template-columns: 1fr;
+            grid-template-areas: 'p1' 'p2' 'p3' 'p4' 'p5' 'p6';
+        }
+    }
+    &-item
+    {
+        transition: .5s;
+
+        background-color: $color-posts;
+
+        &__link
+        {
+            display: grid;
+            overflow: hidden;
+
+            height: 100%;
+
+            grid-template-rows: 300px 1fr;
+        }
+
+        &__img
+        {
+            display: flex;
+            overflow: hidden;
+
+            align-content: center;
+            justify-content: center;
+
+            img
+            {
+                width: 100%;
+
+                transition: .5s;
+
+                object-fit: cover;
+            }
+        }
+
+        &__description
+        {
+            display: grid;
+
+            padding: $gap;
+
+            color: $color-gray;
+
+            align-content: center;
+
+            p,
+            h3
+            {
+                transition: .5s;
+            }
+        }
+
+        &__title
+        {
+            font-family: $font-header;
+            font-size: 1.125rem;
+
+            text-align: center;
+            letter-spacing: .05em;
+        }
+        &__additional-text
+        {
+            font-family: $font-main;
+            line-height: 1.15;
+
+            text-align: center;
+            letter-spacing: .0em;
+        }
+        &:hover img
+        {
+            transform: scale(1.1);
+        }
+        &:hover p,
+        &:hover h3,
+        {
+            color: $color-primary;
+        }
+    }
+    &-item:hover
+    {
+        background-color: $color-gray-light;
+    }
+}
+
+@for $i from 1 through 6
+{
+    .posts-item:nth-of-type(#{$i})
+    {
+        grid-area: p#{$i};
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//.posts-container {
+//    @extend %container;
+//
+//    &__title {
+//      margin-top: 0;
+//    }
+//
+//    &__button {
+//      display: flex;
+//      padding-top: $gap;
+//      justify-content: center;
+//    }
+//
+//    &__content {
+//      display: grid;
+//      grid-template-columns: repeat(4, 1fr);
+//      grid-template-rows: 1fr 1fr;
+//      grid-template-areas: 'a1 a1 a2 a3' 'a4 a5 a6 a6';
+//
+//      &__item {
+//        display: flex;
+//      }
+//    }
+//
+//
+//  }

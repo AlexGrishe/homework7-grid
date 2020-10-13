@@ -45,6 +45,8 @@ a
 .btn,
 .btn-accent
 {
+    font-size: 1.125rem;
+
     display: block;
 
     transition: background-color .5s;
@@ -86,7 +88,9 @@ a
 
         min-width: 170px;
         height: 40px;
-        padding: 9px $gap;
+        padding: 10px $gap;
+
+        letter-spacing: .05em;
     }
 }
 .btn-accent

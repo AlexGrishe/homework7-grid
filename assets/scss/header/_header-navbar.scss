@@ -37,7 +37,7 @@
             width: 50%;
             height: 3px;
 
-            transition: 0.25s ease-in-out;
+            transition: .25s ease-in-out;
             transform: rotate(0deg);
 
             opacity: 1;
@@ -46,12 +46,14 @@
             &:nth-child(even)
             {
                 left: 50%;
+
                 border-radius: 0 3px 3px 0;
             }
 
             &:nth-child(odd)
             {
                 left: 0;
+
                 border-radius: 3px 0 0 3px;
             }
 
@@ -102,12 +104,14 @@
             &:nth-child(3)
             {
                 left: -50%;
+
                 opacity: 0;
             }
 
             &:nth-child(4)
             {
                 left: 100%;
+
                 opacity: 0;
             }
 
@@ -133,6 +137,8 @@
         padding: 0;
 
         list-style: none;
+
+        letter-spacing: .1em;
 
         @include md-min
         {
