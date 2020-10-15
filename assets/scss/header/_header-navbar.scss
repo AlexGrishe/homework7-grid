@@ -15,7 +15,7 @@
         height: 22.5px;
 
         cursor: pointer;
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
         transform: rotate(0deg);
 
         @include md-min
@@ -37,7 +37,7 @@
             width: 50%;
             height: 3px;
 
-            transition: .25s ease-in-out;
+            transition: 0.25s ease-in-out;
             transform: rotate(0deg);
 
             opacity: 1;
@@ -139,6 +139,8 @@
         list-style: none;
 
         letter-spacing: .1em;
+        z-index: 1;
+
 
         @include md-min
         {
@@ -159,6 +161,8 @@
 
             background-color: rgba($color-gray-dark, .9);
         }
+
+
     }
     &__item
     {

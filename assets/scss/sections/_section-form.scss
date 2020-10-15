@@ -21,6 +21,14 @@
             grid-template-areas: 'f1 f1' 'f2 f3';
             grid-gap: $gap;
         }
+        @include sm {
+            display: grid;
+
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: 'f1' 'f2' 'f3';
+            grid-gap: $gap;
+        }
     }
 
 

@@ -164,6 +164,12 @@
     {
         background-color: $color-gray-light;
     }
+
+    &__title {
+        @include sm {
+            text-align: center;
+        }
+    }
 }
 
 @for $i from 1 through 6

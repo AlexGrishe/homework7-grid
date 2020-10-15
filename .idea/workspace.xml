@@ -3,17 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="467792ee-ce09-4e25-9486-4c886172ee29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_skin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_skin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +106,7 @@
       <workItem from="1602320840865" duration="140000" />
       <workItem from="1602330613497" duration="47000" />
       <workItem from="1602347115174" duration="41600000" />
+      <workItem from="1602591110511" duration="10403000" />
     </task>
     <task id="LOCAL-00001" summary="homework10">
       <created>1601998760997</created>
@@ -113,11 +129,29 @@
       <option name="project" value="LOCAL" />
       <updated>1602320198420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last commit">
+      <created>1602591142235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602591142235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework10" />
@@ -133,10 +167,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="237" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1601839283402" />
-    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1602320197737">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602694803752">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602320197737" />
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1602694803752" />
+    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1602591141156">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602591141156" />
     <state x="679" y="247" key="FileChooserDialogImpl" timestamp="1601983139492">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -165,10 +203,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1601998903445" />
-    <state x="442" y="81" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601998727698">
+    <state x="442" y="81" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602591205762">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="442" y="81" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1601998727698" />
+    <state x="442" y="81" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1602591205762" />
     <state x="607" y="183" width="568" height="604" key="find.popup" timestamp="1602537227812">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
