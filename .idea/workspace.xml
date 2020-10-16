@@ -25,11 +25,7 @@
     <list default="true" id="467792ee-ce09-4e25-9486-4c886172ee29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/header/_header-navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-posts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/sections/_section-skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,7 @@
       <workItem from="1602320840865" duration="140000" />
       <workItem from="1602330613497" duration="47000" />
       <workItem from="1602347115174" duration="41600000" />
-      <workItem from="1602591110511" duration="10403000" />
+      <workItem from="1602591110511" duration="11828000" />
     </task>
     <task id="LOCAL-00001" summary="homework10">
       <created>1601998760997</created>
@@ -136,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602591142235</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change menu, size text skills, height block skills, forms (sm), position title posts (sm).">
+      <created>1602774835738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602774835738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework10" />
     <MESSAGE value="last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <MESSAGE value="change menu, size text skills, height block skills, forms (sm), position title posts (sm)." />
+    <option name="LAST_COMMIT_MESSAGE" value="change menu, size text skills, height block skills, forms (sm), position title posts (sm)." />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601818711351">
@@ -171,10 +175,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1602694803752" />
-    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1602591141156">
+    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1602774834644">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602591141156" />
+    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602774834644" />
     <state x="679" y="247" key="FileChooserDialogImpl" timestamp="1601983139492">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
